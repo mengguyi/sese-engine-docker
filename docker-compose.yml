@@ -12,8 +12,8 @@ services:
     restart: unless-stopped
     environment:
       # 你可能需要更改此处的代理
-      https_proxy: http://127.0.0.1:10808
-      http_proxy: http://127.0.0.1:10808
+      https_proxy: http://127.0.0.1:10811
+      http_proxy: http://127.0.0.1:10811
     # 你可能需要更改挂载的位置
-    # volumes:
-      # - "/tmp:/code/savedata"
+    volumes:
+      - "/opt/sese-data:/code/savedata"

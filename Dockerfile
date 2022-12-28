@@ -28,12 +28,6 @@ RUN pip install -r /code/requirements.txt
 
 USER root
 
-RUN apk update
-
-RUN apk upgrade
-
-RUN apk add bash tmux
-
 RUN apk del libffi-dev musl-dev linux-headers git
 
 USER sese
