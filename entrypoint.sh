@@ -1,3 +1,3 @@
 #!/bin/sh
 cd /code/
-bash ./启动.sh
+sh ./启动.sh
